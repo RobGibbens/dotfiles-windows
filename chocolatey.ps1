@@ -3,25 +3,52 @@ if ((which cinst) -eq $null) {
     $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
 }
 
-cinst curl
-#cinst dropbox
-#cinst evernote
-#cinst filezilla
-cinst githubforwindows
-cinst googlechrome
-cinst googlechrome.Canary
-cinst hg
-cinst fiddler
-cinst firefox
-cinst nodejs.install
-cinst opera
+#Development Tools
 #cinst putty
 #cinst ruby
-#cinst skype
-#cinst sublimetext2
-#cinst virtualclonedrive
-#cinst vlc
-#cinst wget
-#cinst wput
-cinst wincommandpaste
+cinst VisualStudio2013Ultimate -InstallArguments "SQL WebTools Win8SDK SilverLight_Developer_Kit WindowsPhone80"
+
+cinst Cmder
+cinst Console2
+cinst curl
+cinst diffmerge
+cinst dotPeek
+cinst fiddler
+cinst githubforwindows
+cinst hg
+cinst javaruntime
+cinst linqpad4
+cinst mongodb
+cinst MongoVUE
+cinst nodejs.install
+cinst NugetPackageExplorer
+cinst Posh-HG
+cinst poshgit
+cinst SourceCodePro
+cinst SourceTree
+cinst sysinternals
+cinst webpi
+cinst webpicommandline
+cinst wget
 cinst winmerge
+cinst wput
+
+#Utilities
+cinst 7zip.install
+cinst adobereader
+cinst dropbox
+cinst evernote
+cinst f.lux
+cinst filezilla
+cinst firefox
+cinst GoogleChrome
+cinst notepadplusplus.install
+cinst opera
+cinst paint.net
+cinst picasa
+cinst pidgin
+cinst skype
+cinst SublimeText3
+cinst TeraCopy
+cinst vlc
+cinst windirstat

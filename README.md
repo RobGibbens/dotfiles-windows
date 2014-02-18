@@ -28,7 +28,7 @@ Note: You must have your execution policy set to unrestricted (or at least in by
 To install these dotfiles from PowerShell without Git:
 
 ```bash
-iex ((new-object net.webclient).DownloadString('https://raw.github.com/jayharris/dotfiles-windows/master/setup/install.ps1'))
+iex ((new-object net.webclient).DownloadString('https://raw.github.com/RobGibbens/dotfiles-windows/master/setup/install.ps1'))
 ```
 
 To update later on, just run that command again.
@@ -56,7 +56,7 @@ Set-Environment("GIT_COMMITTER_EMAIL",$env:GIT_AUTHOR_EMAIL, "User")
 git config --global user.email $env:GIT_AUTHOR_EMAIL
 ```
 
-You could also use `./extra.ps1` to override settings, functions and aliases from my dotfiles repository. It’s probably better to [fork this repository](https://github.com/jayharris/dotfiles-windows/fork) instead, though.
+You could also use `./extra.ps1` to override settings, functions and aliases from my dotfiles repository. It’s probably better to [fork this repository](https://github.com/RobGibbens/dotfiles-windows/fork) instead, though.
 
 ### Configure Windows defaults
 
