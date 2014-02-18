@@ -1,5 +1,5 @@
-﻿# JayHarris's dotfiles for Windows
-
+﻿# RobGibbens' dotfiles for Windows (based on all the work done by @JayHarris)
+﻿
 A collection of PowerShell Profile and dotfiles for Windows.
 
 Are you a Mac user? Check out my [dotfiles](https://github.com/jayharris/dotfiles) repository.
