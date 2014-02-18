@@ -7,7 +7,7 @@ if ((which cinst) -eq $null) {
 #cinst putty
 #cinst ruby
 cinst VisualStudio2013Ultimate -InstallArguments "SQL WebTools Win8SDK SilverLight_Developer_Kit WindowsPhone80"
-
+cinst MsSqlServer2012Express
 cinst Cmder
 cinst Console2
 cinst curl
@@ -23,7 +23,6 @@ cinst MongoVUE
 cinst nodejs.install
 cinst NugetPackageExplorer
 cinst Posh-HG
-cinst poshgit
 cinst SourceCodePro
 cinst SourceTree
 cinst sysinternals
@@ -42,6 +41,7 @@ cinst f.lux
 cinst filezilla
 cinst firefox
 cinst GoogleChrome
+cinst iTunes
 cinst notepadplusplus.install
 cinst opera
 cinst paint.net
