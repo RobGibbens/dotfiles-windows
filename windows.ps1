@@ -1,5 +1,5 @@
 $machineName    = "CHOZO"
-$userFullName   = "Jay Harris"
+$userFullName   = "Rob Gibbens"
 
 
 # Get the ID and security principal of the current user account
